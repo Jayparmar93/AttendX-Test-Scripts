@@ -20,3 +20,6 @@ test('Login should reject an empty username', () => {
 test('Login should reject a short password', () => {
   assert.equal(validateLogin('student01', '123'), false);
 });
+test('Login should reject a missing password', () => {
+  assert.equal(validateLogin('student01', ''), false);
+});
