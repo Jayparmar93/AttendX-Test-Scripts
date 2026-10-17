@@ -31,3 +31,8 @@ node --test
 ## Purpose
 Git and GitHub are used to track script changes,
 maintain commit history, and collaborate with team members.
+## Version Control Record
+
+- Initial commit: Added login and attendance tests.
+- Second commit: Added missing password validation test.
+- Remote update: Documented the GitHub editing workflow.
